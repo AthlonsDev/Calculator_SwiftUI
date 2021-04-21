@@ -15,6 +15,7 @@
 		96200B4326309AD5003D7E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96200B4126309AD5003D7E8B /* LaunchScreen.storyboard */; };
 		96200B4E26309AD5003D7E8B /* Calculator_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96200B4D26309AD5003D7E8B /* Calculator_SwiftUITests.swift */; };
 		96200B5926309AD5003D7E8B /* Calculator_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96200B5826309AD5003D7E8B /* Calculator_SwiftUIUITests.swift */; };
+		96200B6726309B06003D7E8B /* GlobalEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96200B6626309B06003D7E8B /* GlobalEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		96200B5426309AD5003D7E8B /* Calculator_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96200B5826309AD5003D7E8B /* Calculator_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		96200B5A26309AD5003D7E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96200B6626309B06003D7E8B /* GlobalEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				96200B3626309AD4003D7E8B /* AppDelegate.swift */,
 				96200B3826309AD4003D7E8B /* SceneDelegate.swift */,
 				96200B3A26309AD4003D7E8B /* ContentView.swift */,
+				96200B6626309B06003D7E8B /* GlobalEnvironment.swift */,
 				96200B3C26309AD5003D7E8B /* Assets.xcassets */,
 				96200B4126309AD5003D7E8B /* LaunchScreen.storyboard */,
 				96200B4426309AD5003D7E8B /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96200B3726309AD4003D7E8B /* AppDelegate.swift in Sources */,
+				96200B6726309B06003D7E8B /* GlobalEnvironment.swift in Sources */,
 				96200B3926309AD4003D7E8B /* SceneDelegate.swift in Sources */,
 				96200B3B26309AD4003D7E8B /* ContentView.swift in Sources */,
 			);
